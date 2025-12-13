@@ -1,0 +1,619 @@
+BODY {
+	BORDER-TOP-WIDTH: 0px; FONT-WEIGHT: normal; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 13px; BORDER-BOTTOM-WIDTH: 0px; MARGIN: 0px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif, "MS sans serif"; BACKGROUND-COLOR: #ffffff; BORDER-RIGHT-WIDTH: 0px
+}
+TABLE {
+	FONT-SIZE: 13px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif, "MS sans serif"
+}
+TR {
+	FONT-SIZE: 13px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif, "MS sans serif"
+}
+TD {
+	FONT-SIZE: 13px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif, "MS sans serif"
+}
+B {
+	FONT-WEIGHT: bold
+}
+P {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif, "MS sans serif"
+}
+DIV {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif, "MS sans serif"
+}
+A {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif, "MS sans serif"; TEXT-DECORATION: none
+}
+.o {
+	
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+A:link {
+	FONT-SIZE: 11px; COLOR: #000099; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif,"MS sans serif"; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 11px; COLOR: #6666cc; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif,"MS sans serif"; TEXT-DECORATION: none
+}
+A:active {
+	FONT-SIZE: 11px; COLOR: #000099; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif,"MS sans serif"; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 11px; COLOR: #000099; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif,"MS sans serif"; TEXT-DECORATION: underline
+}
+A.lp:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #990000
+}
+A.lp:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #990000
+}
+A.lp:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #cc6666
+}
+A.lp:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #990000
+}
+A.tsh:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #000099
+}
+A.tsh:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #6666cc
+}
+A.tsh:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #000099
+}
+A.tsh:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #000099
+}
+A.tsl:link {
+	PADDING-BOTTOM: 3px; COLOR: #000099
+}
+A.tsl:visited {
+	PADDING-BOTTOM: 3px; COLOR: #6666cc
+}
+A.tsl:hover {
+	PADDING-BOTTOM: 3px; COLOR: #000099
+}
+A.tsl:active {
+	PADDING-BOTTOM: 3px; COLOR: #000099
+}
+A.shl:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000099; TEXT-DECORATION: none
+}
+A.shl:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #6666cc; TEXT-DECORATION: none
+}
+A.shl:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000099; TEXT-DECORATION: underline
+}
+A.shl:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000099; TEXT-DECORATION: none
+}
+A.sshl:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000099; TEXT-DECORATION: none
+}
+A.sshl:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #6666cc; TEXT-DECORATION: none
+}
+A.sshl:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000099; TEXT-DECORATION: underline
+}
+A.sshl:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000099; TEXT-DECORATION: none
+}
+A.epl:link {
+	FONT-SIZE: 10px
+}
+A.epl:active {
+	FONT-SIZE: 10px
+}
+A.epl:visited {
+	FONT-SIZE: 10px
+}
+A.epl:hover {
+	FONT-SIZE: 10px
+}
+A.mo:link {
+	FONT-SIZE: 10px
+}
+A.mo:active {
+	FONT-SIZE: 10px
+}
+A.mo:visited {
+	FONT-SIZE: 10px
+}
+A.mo:hover {
+	FONT-SIZE: 10px
+}
+/*Structural elements */
+#container {
+	width: 550px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#sidebar {
+	width: 180px;
+	padding: 0 5px 0 5px;
+	margin: 0 0 10px 10px;
+	border: double 4px #CCD9DB;
+	background-color: #ADD8E6;
+	float: right;
+}
+
+#navList {
+	list-style-type: none;
+	margin-top: 30px;
+	padding: 0;
+	border-top: solid 1px #078;
+	text-align: right;
+}
+h1 {FONT-WEIGHT: bold; FONT-SIZE: 20px; COLOR: #000000
+	
+}
+
+h2 {FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #000000
+	
+}
+
+h3 {FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #000000
+	
+}
+
+h4 {FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #000000
+	
+}
+
+h5 {FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000
+	
+}
+
+h6 {FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; 	font-style: italic; }
+
+/* text effects */
+em.title {
+	text-decoration: underline;
+}
+#articleList p {
+	margin: 0 0 25px 0;
+}
+#articleList h3 {
+	font: 13px verdana, tahoma, arial, sans-serif;
+	margin: 0px;
+}
+
+.sh {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #000000
+}
+.ish {
+	MARGIN-TOP: 5px; FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #444444
+}
+.rhst {
+	FONT-SIZE: 11px
+}
+.nlp {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #444444
+}
+.nlpa {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #000000
+}
+.nlpuff {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px
+}
+.ds {
+	FONT-SIZE: 11px; COLOR: #000000
+}
+.di {
+	FONT-SIZE: 11px; COLOR: #666666
+}
+.lu {
+	FONT-SIZE: 11px; COLOR: #666666
+}
+
+.lhs {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 11px; BORDER-BOTTOM-WIDTH: 1px; WIDTH: 121px; PADDING-TOP: 5px; BACKGROUND-COLOR: #eeeeee; TEXT-ALIGN: right; BORDER-RIGHT-WIDTH: 1px
+}
+.lhsad {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 11px; BORDER-BOTTOM-WIDTH: 1px; WIDTH: 121px; PADDING-TOP: 5px; BACKGROUND-COLOR: #eeeeee; TEXT-ALIGN: right; BORDER-RIGHT-WIDTH: 1px
+}
+.lhsb {
+	PADDING-RIGHT: 6px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.lhssq {
+	PADDING-RIGHT: 6px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; BACKGROUND-REPEAT: repeat-y; BACKGROUND-COLOR: #bbbbbb
+}
+
+.lhslt {
+	PADDING-RIGHT: 6px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; BACKGROUND-COLOR: #dddddd
+}
+.lhsdl {
+	PADDING-RIGHT: 6px; FONT-SIZE: 11px; COLOR: #999999
+}
+.lhsnlp {
+	PADDING-RIGHT: 6px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 2px; COLOR: #444444; PADDING-TOP: 2px
+}
+.lhsmi {
+	BACKGROUND-COLOR: #dddddd
+}
+.lhsl {
+	PADDING-RIGHT: 6px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+
+}
+.lhs A:visited {
+	COLOR: #000099
+}
+A.sel:link {
+	COLOR: #dddddd
+}
+A.sel:active {
+	COLOR: #dddddd
+}
+A.sel:visited {
+	COLOR: #cccccc
+}
+A.sel:hover {
+	COLOR: #aaaaaa
+}
+A.fl:link {
+	FONT-SIZE: 11px; COLOR: #000099
+}
+A.fl:visited {
+	FONT-SIZE: 11px; COLOR: #6666cc
+}
+A.fl:hover {
+	FONT-SIZE: 11px; COLOR: #000099
+}
+A.fl:active {
+	FONT-SIZE: 11px; COLOR: #000099
+}
+A.flb:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000099
+}
+A.flb:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #6666cc
+}
+A.flb:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000099
+}
+A.flb:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000099
+}
+TABLE.fs {
+	MARGIN-TOP: 20px
+}
+TD.fo {
+	FONT-SIZE: 12px; COLOR: #cccc99; BACKGROUND-COLOR: #990000
+}
+.f {
+	FONT-SIZE: 13px; MARGIN-BOTTOM: 10px; MARGIN-LEFT: 131px; WIDTH: 629px
+}
+A.bl:link {
+	COLOR: #dddddd
+}
+A.bl:active {
+	COLOR: #dddddd
+}
+A.bl:visited {
+	COLOR: #cccccc
+}
+A.bl:hover {
+	COLOR: #aaaaaa
+}
+TD.ba {
+	FONT-SIZE: 11px; PADDING-BOTTOM: 2px; COLOR: #cccc99; PADDING-TOP: 2px; BACKGROUND-COLOR: #000000
+}
+.tbsrc {
+	COLOR: #9a9a9a
+}
+
+A.wt:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: tahoma,arial,helvetica,sans-serif; TEXT-DECORATION: none
+}
+A.wt:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: tahoma,arial,helvetica,sans-serif; TEXT-DECORATION: none
+}
+A.wt:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: tahoma,arial,helvetica,sans-serif; TEXT-DECORATION: none
+}
+A.wt:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: tahoma,arial,helvetica,sans-serif; TEXT-DECORATION: none
+}
+.mva {
+	MARGIN: 5px
+}
+.mvt {
+	MARGIN-TOP: 5px
+}
+.mvtl {
+	MARGIN-TOP: 5px; MARGIN-LEFT: 5px
+}
+.mvl {
+	MARGIN-LEFT: 5px
+}
+.mxl {
+	MARGIN-LEFT: 10px
+}
+.mvr {
+	MARGIN-RIGHT: 5px
+}
+.mvtb {
+	MARGIN-TOP: 5px; MARGIN-BOTTOM: 5px
+}
+.mvb {
+	MARGIN-BOTTOM: 5px
+}
+.mxb {
+	MARGIN-BOTTOM: 10px
+}
+.mxvb {
+	MARGIN-BOTTOM: 15px
+}
+.mvbl {
+	MARGIN-BOTTOM: 5px; MARGIN-LEFT: 5px
+}
+
+.imvr {
+	MARGIN-RIGHT: 5px
+}
+.pva {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.pvl {
+	PADDING-LEFT: 5px
+}
+.pvr {
+	PADDING-RIGHT: 5px
+}
+.pvt {
+	PADDING-TOP: 5px
+}
+.pvtb {
+	PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.pvtbl {
+	PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.pvlb {
+	PADDING-LEFT: 5px; PADDING-BOTTOM: 5px
+}
+.pvb {
+	PADDING-BOTTOM: 5px
+}
+.piiia {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.piiil {
+	PADDING-LEFT: 3px
+}
+.piiir {
+	PADDING-RIGHT: 3px
+}
+.piiitb {
+	PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.piiibl {
+	PADDING-LEFT: 3px; PADDING-BOTTOM: 3px
+}
+.piiit {
+	PADDING-TOP: 3px
+}
+.piiib {
+	PADDING-BOTTOM: 3px
+}
+.pxl {
+	PADDING-LEFT: 10px
+}
+.gffffff {
+	BACKGROUND-COLOR: #ffffff
+}
+.gpromo {
+	BACKGROUND-COLOR: #ddddcc
+}
+.gddddbb {
+	BACKGROUND-COLOR: #ddddbb
+}
+.gcccccc {
+	BACKGROUND-COLOR: #cccccc
+}
+.g000000 {
+	BACKGROUND-COLOR: #000000
+}
+.gefefef {
+	BACKGROUND-COLOR: #efefef
+}
+.vb {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 11px; BORDER-BOTTOM-WIDTH: 1px; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 5px; WIDTH: 203px; COLOR: #000000; BACKGROUND-COLOR: #eeeedd; BORDER-RIGHT-WIDTH: 1px
+}
+.vh {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 2px; TEXT-TRANSFORM: uppercase; COLOR: #ffffff; PADDING-TOP: 2px; BACKGROUND-COLOR: #336677
+}
+.vdi {
+	FONT-SIZE: 10px; COLOR: #000000
+}
+.pb {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; WIDTH: 203px; COLOR: #000000; BACKGROUND-COLOR: #ddddcc; BORDER-RIGHT-WIDTH: 1px
+}
+.stpb {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; WIDTH: 416px; COLOR: #ffffff; HEIGHT: 22px; BACKGROUND-COLOR: #669999; BORDER-RIGHT-WIDTH: 1px
+}
+.stpt {
+	PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ffffff; PADDING-TOP: 5px
+}
+.ch1 {
+	BORDER-TOP-WIDTH: 1px; PADDING-RIGHT: 0px; PADDING-LEFT: 4px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 11px; BORDER-BOTTOM-WIDTH: 1px; PADDING-BOTTOM: 4px; WIDTH: 416px; COLOR: #ffffff; PADDING-TOP: 4px; FONT-FAMILY: verdana; BACKGROUND-COLOR: #77aabb; BORDER-RIGHT-WIDTH: 1px
+}
+.ch2 {
+	BORDER-TOP-WIDTH: 1px; PADDING-RIGHT: 0px; PADDING-LEFT: 4px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 11px; BORDER-BOTTOM-WIDTH: 1px; PADDING-BOTTOM: 4px; WIDTH: 416px; COLOR: #ffffff; PADDING-TOP: 4px; FONT-FAMILY: verdana; BACKGROUND-COLOR: #bbbbaa; BORDER-RIGHT-WIDTH: 1px
+}
+.avh {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 2px; COLOR: #ffffff; PADDING-TOP: 2px; BACKGROUND-COLOR: #cc0000
+}
+.av1h {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 2px; COLOR: #ffffff; PADDING-TOP: 2px; BACKGROUND-COLOR: #cc0000
+}
+.avlh {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 2px; COLOR: #ffffff; PADDING-TOP: 2px; BACKGROUND-COLOR: #000000
+}
+.av1sh {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 2px; COLOR: #ffffff; PADDING-TOP: 2px; BACKGROUND-COLOR: #000000
+}
+.avsh {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 2px; COLOR: #ffffff; PADDING-TOP: 2px; BACKGROUND-COLOR: #000000
+}
+.av1lh {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 2px; COLOR: #ffffff; PADDING-TOP: 2px; BACKGROUND-COLOR: #000000
+}
+.avt {
+	FONT-SIZE: 11px
+}
+.spb {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; WIDTH: 203px; BACKGROUND-COLOR: #ffffcc; BORDER-RIGHT-WIDTH: 1px
+}
+.spbe {
+	BORDER-TOP: 1px dashed; PADDING-BOTTOM: 3px; WIDTH: 100%; PADDING-TOP: 3px; BORDER-BOTTOM: 1px dashed; BACKGROUND-COLOR: #ffff33
+}
+.gnb {
+	BORDER-TOP-WIDTH: 1px; PADDING-LEFT: 5px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; PADDING-BOTTOM: 5px; COLOR: #ffffff; PADDING-TOP: 5px; BACKGROUND-COLOR: #669933; BORDER-RIGHT-WIDTH: 1px
+}
+.wtrb {
+	BORDER-TOP-WIDTH: 1px; PADDING-LEFT: 5px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; PADDING-BOTTOM: 5px; COLOR: #ffffff; PADDING-TOP: 5px; BACKGROUND-COLOR: #ddeeee; BORDER-RIGHT-WIDTH: 1px
+}
+.tqub {
+	BORDER-TOP-WIDTH: 1px; PADDING-LEFT: 5px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; PADDING-BOTTOM: 5px; WIDTH: 100%; COLOR: #000000; PADDING-TOP: 5px; BACKGROUND-COLOR: #99cccc; BORDER-RIGHT-WIDTH: 1px
+}
+.ltgray {
+	BORDER-TOP-WIDTH: 1px; PADDING-LEFT: 5px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; PADDING-BOTTOM: 5px; WIDTH: 100%; PADDING-TOP: 5px; BACKGROUND-COLOR: #efefef; BORDER-RIGHT-WIDTH: 1px
+}
+.wsb {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; MARGIN-BOTTOM: 7px; WIDTH: 203px; BACKGROUND-COLOR: #ddeeff; BORDER-RIGHT-WIDTH: 1px
+}
+.mph1 {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 2px; COLOR: #ffffff; PADDING-TOP: 2px; BACKGROUND-COLOR: #336677
+}
+.mph {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 2px; COLOR: #ffffff; PADDING-TOP: 2px; BACKGROUND-COLOR: #336677
+}
+.midbar {
+	BORDER-TOP-WIDTH: 1px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 11px; BORDER-BOTTOM-WIDTH: 1px; PADDING-BOTTOM: 2px; COLOR: #ffffff; PADDING-TOP: 2px; BACKGROUND-COLOR: #003366; BORDER-RIGHT-WIDTH: 1px
+}
+.formatStyle {
+	WIDTH: 160px
+}
+.ddb {
+	BORDER-TOP-WIDTH: 1px; PADDING-LEFT: 5px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 11px; BORDER-BOTTOM-WIDTH: 1px; PADDING-BOTTOM: 5px; COLOR: #000000; PADDING-TOP: 2px; BACKGROUND-COLOR: #ffffff; BORDER-RIGHT-WIDTH: 1px
+}
+.ddh {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #000000
+}
+.ddt {
+	FONT-SIZE: 11px; MARGIN-BOTTOM: 5px
+}
+.dd160 {
+	WIDTH: 160px
+}
+.dd250 {
+	WIDTH: 250px
+}
+TD.sibt {
+	FONT-SIZE: 11px
+}
+TD.sibtbg {
+	FONT-SIZE: 11px; BACKGROUND-COLOR: #eeeedd
+}
+.sih {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 2px; COLOR: #ffffff; PADDING-TOP: 2px; BACKGROUND-COLOR: #336677
+}
+.sibf {
+	MARGIN-LEFT: 5px; BACKGROUND-COLOR: #eeeedd
+}
+.sibmg {
+	MARGIN-LEFT: 5px; BACKGROUND-COLOR: #ffde9c
+}
+.cap {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #666666
+}
+.bys {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000000
+}
+.byl {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666666
+}
+.byd {
+	FONT-SIZE: 11px; COLOR: #000000
+}
+.msd {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666666
+}
+.sah {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 2px; COLOR: #ffffff; PADDING-TOP: 2px; BACKGROUND-COLOR: #336677
+}
+.sad {
+	FONT-SIZE: 11px; COLOR: #666666
+}
+.snh {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 2px; COLOR: #ffffff; PADDING-TOP: 2px; BACKGROUND-COLOR: #dd6622
+}
+.sng {
+	BACKGROUND-COLOR: #eeeeee
+}
+.sph {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 2px; COLOR: #ffffff; PADDING-TOP: 2px; BACKGROUND-COLOR: #990000
+}
+.pph {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 2px; COLOR: #ffffff; PADDING-TOP: 2px; BACKGROUND-COLOR: #888888
+}
+A.tickl {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000099; LINE-HEIGHT: 12px; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif; TEXT-DECORATION: none
+}
+A.tickl:hover {
+	COLOR: #6666cc; TEXT-DECORATION: none
+}
+.ticki {
+	OVERFLOW: hidden; WIDTH: 629px; HEIGHT: 13px
+}
+.ticko {
+	PADDING-RIGHT: 0px; BORDER-TOP: #ffffff 1px solid; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 4px; MARGIN: 4px 0px 2px; WIDTH: 629px; PADDING-TOP: 3px; BORDER-BOTTOM: #990000 1px solid
+}
+.tickls {
+	COLOR: #444444
+}
+.tickh {
+	DISPLAY: none
+}
+.psrhb {
+	PADDING-BOTTOM: 2px
+}
+.psrht {
+	MARGIN-TOP: 3px; FONT-WEIGHT: bold; FONT-SIZE: 10px; MARGIN-BOTTOM: 3px; COLOR: #666666
+}
+.pinp {
+	FONT-SIZE: 11px; WIDTH: 160px; FONT-FAMILY: Verdana, Arial, Helvetica
+}
+.changeHead {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #990000
+}
+.changeSummary {
+	FONT-SIZE: 10px; COLOR: #000000
+}
+TD.mdh {
+	PADDING-LEFT: 1px; FONT-SIZE: 10px; PADDING-BOTTOM: 2px; COLOR: #ffffff; PADDING-TOP: 2px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #003366
+}
+TD.mmd {
+	BACKGROUND-COLOR: #cccccc
+}
+.mdfg1 {
+	FONT-SIZE: 11px; COLOR: #333333; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.mdfg2 {
+	FONT-SIZE: 11px; COLOR: #333333; MARGIN-RIGHT: 5px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.mdlink {
+	FONT-SIZE: 10px; COLOR: #333333; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.idty {
+	FONT-SIZE: 11px; PADDING-BOTTOM: 1px; WIDTH: 100px; COLOR: #444444; FONT-FAMILY: verdana; BACKGROUND-COLOR: #bbbbbb; TEXT-ALIGN: center
+}
+.idy {
+	PADDING-BOTTOM: 1px; WIDTH: 100px; BACKGROUND-COLOR: #eeeeee; TEXT-ALIGN: center
+}
